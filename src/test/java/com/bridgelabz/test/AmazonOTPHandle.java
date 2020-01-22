@@ -16,7 +16,7 @@ public class AmazonOTPHandle extends BaseTest {
     public static final String AAUTHENTICATION_TOKEN="d0807efe3f55a354f92d15c079b11233";
 
     @Test
-    public void testName() {
+    public void givenTestCaseForHandleOTP() {
 
         driver.get("https://www.amazon.in/");
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
